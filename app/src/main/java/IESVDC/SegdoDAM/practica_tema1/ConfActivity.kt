@@ -1,4 +1,4 @@
-package Practica_tema1.IESVDC.SegdoDAM
+package IESVDC.SegdoDAM.practica_tema1
 
 import Practica_tema1.IESVDC.SegdoDAM.databinding.ActivityConfBinding
 import android.os.Bundle

@@ -21,13 +21,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica_tema1">
         <activity
-            android:name=".ConfActivity"
+            android:name="IESVDC.SegdoDAM.practica_tema1.ConfActivity"
             android:exported="false" />
         <activity
-            android:name=".llamada"
+            android:name="IESVDC.SegdoDAM.practica_tema1.llamada"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="IESVDC.SegdoDAM.practica_tema1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

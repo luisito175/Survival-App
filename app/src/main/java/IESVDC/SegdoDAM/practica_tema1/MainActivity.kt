@@ -1,5 +1,8 @@
-package Practica_tema1.IESVDC.SegdoDAM
+package IESVDC.SegdoDAM.practica_tema1
 
+import IESVDC.SegdoDAM.practica_tema1.ConfActivity
+import Practica_tema1.IESVDC.SegdoDAM.R
+import IESVDC.SegdoDAM.practica_tema1.llamada
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.icu.util.Calendar
