@@ -94,3 +94,6 @@ La pantalla principal (`MainActivity`) da acceso a todas las funciones clave:
 - **`TextToSpeech`**: Lectura de chistes en español.
 - **`ViewBinding`**: Acceso seguro a vistas sin `findViewById`.
 - **`Handler` y `ScheduledExecutorService`**: Animaciones en la actividad de dados.
+
+
+[Video Demostrativo](https://youtu.be/1o-bbZqcaso)
