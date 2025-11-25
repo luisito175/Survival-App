@@ -1,4 +1,4 @@
-Practica_tema1.IESVDC.SegdoDAM
+IESVDC.SegdoDAM.practica_tema1
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3591,6 +3591,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable acertaste
 drawable avd_hide_password
 drawable avd_show_password
 drawable boton_presionado
@@ -3604,6 +3605,23 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card_back
+drawable card_clubs_02
+drawable card_clubs_03
+drawable card_clubs_04
+drawable card_clubs_06
+drawable card_clubs_07
+drawable card_clubs_08
+drawable card_clubs_09
+drawable card_clubs_10
+drawable card_clubs_a
+drawable card_clubs_j
+drawable dado1
+drawable dado2
+drawable dado3
+drawable dado4
+drawable dado5
+drawable dado6
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3709,6 +3727,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vaso
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3819,6 +3838,8 @@ id below
 id bestChoice
 id blocking
 id botonAjustes
+id botonChiste
+id botonDado
 id boton_volver_llamada
 id botonahorro
 id botonllamar
@@ -3828,6 +3849,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnLeerChiste
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3841,6 +3863,9 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkModoOscuro
+id checkOpcion1
+id checkOpcion2
 id checkbox
 id checked
 id chronometer
@@ -3903,8 +3928,8 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTextPhone
-id editTextURL
+id editNumero
+id editURL
 id edit_query
 id edit_text_id
 id elastic
@@ -3960,8 +3985,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id imageViewFondo
+id imagviewCarta
+id imagviewDado1
+id imagviewDado2
 id immediateStop
 id included
 id indeterminate
@@ -4109,9 +4138,13 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id radio1
+id radio2
+id radioGroup
 id ratio
 id rectangles
 id report_drawn
@@ -4206,7 +4239,12 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id text
 id text2
+id textAhorro
+id textAlarma
+id textChiste
+id textDado
 id textEnd
+id textLlamar
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -4215,22 +4253,17 @@ id textTop
 id textView
 id textView2
 id textView3
-id textView4
 id textView5
-id textView6
+id textWeb
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id textahorro
-id textalarma
 id textinput_counter
 id textinput_error
 id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textllamar
-id textweb
 id time
 id title
 id titleDividerNoCustom
@@ -4251,6 +4284,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtChiste
+id txtResultado
 id unchecked
 id uniform
 id unlabeled
@@ -4258,7 +4293,6 @@ id up
 id useLogo
 id vertical
 id vertical_only
-id view
 id view_offset_helper
 id view_transition
 id view_tree_disjoint_parent
@@ -4397,7 +4431,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_acertaste
+layout activity_chistes
 layout activity_conf
+layout activity_dados
 layout activity_llamada
 layout activity_main
 layout custom_dialog

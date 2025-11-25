@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-2:/values-pa/values-pa.xml",
+            "outputFile": "IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-2:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/caches/8.13/transforms/85773c013c79075776e2315875264a55/transformed/appcompat-1.7.1/res/values-pa/values-pa.xml",

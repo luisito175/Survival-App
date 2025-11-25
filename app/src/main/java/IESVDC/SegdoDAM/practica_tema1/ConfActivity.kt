@@ -1,74 +1,98 @@
 package IESVDC.SegdoDAM.practica_tema1
 
-import Practica_tema1.IESVDC.SegdoDAM.databinding.ActivityConfBinding
+import IESVDC.SegdoDAM.practica_tema1.databinding.ActivityConfBinding
+import android.content.Context
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
-// --- ConfActivity: La Pantalla de Ajustes ---
-// Esta pantalla permite al usuario guardar dos datos:
-// 1. Un número de teléfono personalizado.
-// 2. Una URL para el manual web.
 class ConfActivity : AppCompatActivity() {
 
-    // Declara una variable para el "binding".
-    // El binding es una herramienta que conecta el código Kotlin con el diseño XML,
-    // para poder acceder a los botones y textos de forma segura.
     private lateinit var binding: ActivityConfBinding
 
-    // La función onCreate se ejecuta una sola vez, cuando la pantalla se crea.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Infla (crea) el objeto de binding a partir del layout XML (activity_conf.xml).
         binding = ActivityConfBinding.inflate(layoutInflater)
-        // Establece el diseño de la pantalla usando la vista raíz del binding.
         setContentView(binding.root)
 
-        // --- CARGAR DATOS GUARDADOS ---
+        val prefs = getSharedPreferences("confPrefs", Context.MODE_PRIVATE)
 
-        // Abre el fichero de preferencias llamado "numero" para leer datos.
-        val sharedPreferences = getSharedPreferences("numero", MODE_PRIVATE)
-        // Lee el valor guardado con la clave "numero". Si no hay nada, devuelve un texto vacío.
-        val numero = sharedPreferences.getString("numero", "")
-        // Si se encontró un número, lo muestra en la caja de texto correspondiente.
-        if (numero != null ){
-            binding.editTextPhone.setText(numero)
+        // Cargar preferencias al iniciar
+        binding.checkModoOscuro.isChecked = prefs.getBoolean("modoOscuro", false)
+        binding.checkOpcion1.isChecked = prefs.getBoolean("opcion1", false)
+        binding.checkOpcion2.isChecked = prefs.getBoolean("opcion2", false)
+        binding.editNumero.setText(prefs.getString("numeroTelefono", ""))
+        binding.editURL.setText(prefs.getString("urlWeb", ""))
+        val radioSeleccionado = prefs.getInt("radioSeleccionado", -1)
+        if (radioSeleccionado != -1) binding.radioGroup.check(radioSeleccionado)
+
+        // Aplicar modo oscuro al iniciar
+        aplicarModoOscuro(binding.checkModoOscuro.isChecked)
+
+        // Listener modo oscuro
+        binding.checkModoOscuro.setOnCheckedChangeListener { _, isChecked ->
+            aplicarModoOscuro(isChecked)
         }
 
-        // (Aquí podrías añadir también la carga de la URL guardada para que se muestre al abrir)
+        // Listener para CheckBox Opción 1
+        binding.checkOpcion1.setOnCheckedChangeListener { _, isChecked ->
+            val mensaje = if (isChecked) "Opción 1 activada" else "Opción 1 desactivada"
+            Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
+        }
 
-        // --- CONFIGURACIÓN DEL BOTÓN DE GUARDAR ---
+        // Listener para CheckBox Opción 2
+        binding.checkOpcion2.setOnCheckedChangeListener { _, isChecked ->
+            val mensaje = if (isChecked) "Opción 2 activada" else "Opción 2 desactivada"
+            Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show()
+        }
 
-        // Establece un listener para que el código se ejecute cuando se pulsa el botón.
+        // Listener RadioGroup: muestra Toast con la opción seleccionada
+        binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
+            val texto = when (checkedId) {
+                binding.radio1.id -> "Radio 1 seleccionado"
+                binding.radio2.id -> "Radio 2 seleccionado"
+                else -> "Nada seleccionado"
+            }
+            Toast.makeText(this, texto, Toast.LENGTH_SHORT).show()
+        }
+
+        // Guardar configuración
         binding.BotonGuardar.setOnClickListener {
+            val editor = prefs.edit()
+            editor.putBoolean("modoOscuro", binding.checkModoOscuro.isChecked)
+            editor.putBoolean("opcion1", binding.checkOpcion1.isChecked)
+            editor.putBoolean("opcion2", binding.checkOpcion2.isChecked)
+            editor.putString("numeroTelefono", binding.editNumero.text.toString())
+            editor.putString("urlWeb", binding.editURL.text.toString())
+            editor.putInt("radioSeleccionado", binding.radioGroup.checkedRadioButtonId)
+            editor.apply()
 
-            // --- GUARDAR DATOS ---
+            Toast.makeText(this, "Configuración guardada", Toast.LENGTH_SHORT).show()
+        }
+    }
 
-            // 1. Coge el texto que el usuario ha escrito en las cajas de texto.
-            val numeroAGuardar = binding.editTextPhone.text.toString()
-            val urlAGuardar = binding.editTextURL.text.toString()
-
-            // 2. Abre los ficheros de preferencias para escribir los datos.
-            // (Nota: Estás usando dos ficheros distintos, uno para el número y otro para la URL).
-            val prefsNumero = getSharedPreferences("numero", MODE_PRIVATE)
-            val prefsUrl = getSharedPreferences("url", MODE_PRIVATE)
-
-            // 3. Guarda el número de teléfono.
-            val editorNumero = prefsNumero.edit()
-            editorNumero.putString("numero", numeroAGuardar)
-            editorNumero.apply() // .apply() guarda los cambios en segundo plano.
-
-            // 4. Guarda la URL.
-            val editorUrl = prefsUrl.edit()
-            editorUrl.putString("url", urlAGuardar)
-            editorUrl.apply()
-
-            // 5. Muestra un mensaje de confirmación al usuario.
-            Toast.makeText(this, "Ajustes guardados correctamente", Toast.LENGTH_SHORT).show()
-
-            // 6. Cierra la pantalla de ajustes y vuelve a la pantalla principal.
-            finish()
+    private fun aplicarModoOscuro(activar: Boolean) {
+        if (activar) {
+            binding.root.setBackgroundColor(Color.BLACK)
+            binding.textView5.setTextColor(Color.WHITE)
+            binding.checkModoOscuro.setTextColor(Color.WHITE)
+            binding.checkOpcion1.setTextColor(Color.WHITE)
+            binding.checkOpcion2.setTextColor(Color.WHITE)
+            binding.radio1.setTextColor(Color.WHITE)
+            binding.radio2.setTextColor(Color.WHITE)
+            binding.editNumero.setTextColor(Color.WHITE)
+            binding.editURL.setTextColor(Color.WHITE)
+        } else {
+            binding.root.setBackgroundColor(Color.WHITE)
+            binding.textView5.setTextColor(Color.BLACK)
+            binding.checkModoOscuro.setTextColor(Color.BLACK)
+            binding.checkOpcion1.setTextColor(Color.BLACK)
+            binding.checkOpcion2.setTextColor(Color.BLACK)
+            binding.radio1.setTextColor(Color.BLACK)
+            binding.radio2.setTextColor(Color.BLACK)
+            binding.editNumero.setTextColor(Color.BLACK)
+            binding.editURL.setTextColor(Color.BLACK)
         }
     }
 }

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "Practica_tema1.IESVDC.SegdoDAM"
+    namespace = "IESVDC.SegdoDAM.practica_tema1"
     compileSdk = 36
 
     defaultConfig {

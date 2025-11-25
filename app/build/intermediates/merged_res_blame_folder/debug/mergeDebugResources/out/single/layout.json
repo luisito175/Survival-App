@@ -1,14 +1,30 @@
 [
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-3:/layout/activity_llamada.xml",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_llamada.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_dados.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_dados.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-3:/layout/activity_main.xml",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_main.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_acertaste.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_acertaste.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-3:/layout/activity_conf.xml",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_conf.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_llamada.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_llamada.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_conf.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_conf.xml"
+    },
+    {
+        "merged": "IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_conf.xml",
+        "source": "IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_conf.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-3:/layout/activity_chistes.xml",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_chistes.xml"
     }
 ]

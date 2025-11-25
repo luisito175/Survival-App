@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-2:/values-land/values-land.xml",
+            "outputFile": "IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-2:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/luis/AndroidStudioProjects/Practica_tema1_v2/app/src/main/res/values-land/dimens.xml",

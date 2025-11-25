@@ -1,6 +1,5 @@
 package IESVDC.SegdoDAM.practica_tema1
 
-import Practica_tema1.IESVDC.SegdoDAM.R
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -80,8 +79,8 @@ class llamada : AppCompatActivity() {
         // Crea una "intención" para realizar una llamada (ACTION_CALL).
         val intent = Intent(Intent.ACTION_CALL).apply {
             // Lee el número de teléfono guardado por el usuario en las preferencias.
-            val sharedPreferences = getSharedPreferences("numero", MODE_PRIVATE)
-            val numeroGuardado = sharedPreferences.getString("numero", "") // Si no hay nada, usa "" (vacío)
+            val sharedPreferences = getSharedPreferences("confPrefs", MODE_PRIVATE)
+            val numeroGuardado = sharedPreferences.getString("numeroTelefono", "") // Si no hay nada, usa "" (vacío)
 
             // Prepara el número para la llamada, añadiendo "tel:".
             data = Uri.parse("tel:$numeroGuardado")

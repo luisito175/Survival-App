@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "Practica_tema1.IESVDC.SegdoDAM.app-mergeDebugResources-2:/values-ka/values-ka.xml",
+            "outputFile": "IESVDC.SegdoDAM.practica_tema1.app-mergeDebugResources-2:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/caches/8.13/transforms/33079909f17da03ffd266d4c31ede073/transformed/material-1.13.0/res/values-ka/values-ka.xml",

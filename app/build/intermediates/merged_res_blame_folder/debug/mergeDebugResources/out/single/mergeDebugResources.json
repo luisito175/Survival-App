@@ -1,94 +1,186 @@
 [
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/xml_data_extraction_rules.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_acertaste.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_acertaste.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_boton_principal.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/boton_principal.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_boton_presionado.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/boton_presionado.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/layout_activity_main.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_main.xml"
+        "merged": "IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_conf.xml.flat",
+        "source": "IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_conf.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado5.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado5.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_03.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_03.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_boton_sin_presionar.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/boton_sin_presionar.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_vaso.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/vaso.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_08.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_08.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado1.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado1.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/layout_activity_conf.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_conf.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado2.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado2.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/xml_backup_rules.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/xml/backup_rules.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_conf.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_conf.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/layout_activity_llamada.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/layout/activity_llamada.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_foto.jpeg.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/foto.jpeg"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado4.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado4.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_boton_principal.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/boton_principal.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_boton_presionado.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/boton_presionado.xml"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_02.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_02.png"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_acertaste.jpg.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/acertaste.jpg"
     },
     {
-        "merged": "Practica_tema1.IESVDC.SegdoDAM.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "Practica_tema1.IESVDC.SegdoDAM.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado6.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado6.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_boton_sin_presionar.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/boton_sin_presionar.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_a.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_a.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_dados.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_dados.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_chistes.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_chistes.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_07.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_07.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_back.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_back.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_j.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_j.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_06.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_06.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_10.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_10.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_09.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_09.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_dado3.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/dado3.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_foto.jpeg.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/foto.jpeg"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/drawable_card_clubs_04.png.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/drawable/card_clubs_04.png"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-debug-4:/layout_activity_llamada.xml.flat",
+        "source": "/home/luis/AndroidStudioProjects/Proy1/gradle/wrapper/daemon/8.13/IESVDC.SegdoDAM.practica_tema1.app-main-6:/layout/activity_llamada.xml"
     }
 ]

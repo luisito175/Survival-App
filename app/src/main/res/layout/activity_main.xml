@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:backgroundTint="@color/black"
-    tools:context="IESVDC.SegdoDAM.practica_tema1.MainActivity">
-
-    <!-- Fila Superior de Botones -->
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageViewFondo"
@@ -27,124 +23,164 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:text="Survival App"
-        android:textColor="@color/white"
         android:textSize="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/botonahorro"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/boton_principal"
-        android:padding="12dp"
-        app:srcCompat="@android:drawable/ic_lock_idle_charging"
-        app:tint="@android:color/white"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintEnd_toStartOf="@+id/botonllamar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/botonweb"
-        android:layout_marginBottom="32dp"/>
-
-    <ImageButton
-        android:id="@+id/botonllamar"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/boton_principal"
-        android:padding="12dp"
-        app:srcCompat="@android:drawable/stat_sys_speakerphone"
-        app:tint="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/botonahorro"
-        app:layout_constraintTop_toTopOf="@+id/botonahorro"
-        app:layout_constraintBottom_toBottomOf="@+id/botonahorro"/>
-
-
-    <!-- Fila Inferior de Botones -->
-    <ImageButton
-        android:id="@+id/botonweb"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/boton_principal"
-        android:padding="12dp"
-        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
-        app:tint="@android:color/white"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/alarma"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="128dp"/>
-
-    <ImageButton
-        android:id="@+id/alarma"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/boton_principal"
-        android:padding="12dp"
-        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
-        app:tint="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/botonweb"
-        app:layout_constraintTop_toTopOf="@+id/botonweb"
-        app:layout_constraintBottom_toBottomOf="@+id/botonweb"/>
-
-
-    <!-- Textos para los botones -->
-    <TextView
-        android:id="@+id/textahorro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Ahorro de bateria"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/botonahorro"
-        app:layout_constraintStart_toStartOf="@+id/botonahorro"
-        app:layout_constraintTop_toBottomOf="@+id/botonahorro" />
-
-    <TextView
-        android:id="@+id/textllamar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Llamada de emergencia"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/botonllamar"
-        app:layout_constraintStart_toStartOf="@+id/botonllamar"
-        app:layout_constraintTop_toBottomOf="@+id/botonllamar" />
-
-    <TextView
-        android:id="@+id/textweb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Acceso a Web"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/botonweb"
-        app:layout_constraintStart_toStartOf="@+id/botonweb"
-        app:layout_constraintTop_toBottomOf="@+id/botonweb" />
-
-    <TextView
-        android:id="@+id/textalarma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Alarma 2mins"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/alarma"
-        app:layout_constraintStart_toStartOf="@+id/alarma"
-        app:layout_constraintTop_toBottomOf="@+id/alarma" />
+        android:layout_marginTop="20dp"/>
 
     <ImageButton
         android:id="@+id/botonAjustes"
         android:layout_width="54dp"
         android:layout_height="49dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="#00000000"
         app:srcCompat="@android:drawable/ic_menu_manage"
-        android:background="#00000000"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Botón Chistes -->
+
+    <!-- Botón Dados -->
+
+    <ImageButton
+        android:id="@+id/botonChiste"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="404dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+    <TextView
+        android:id="@+id/textChiste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Escucha un chiste"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/botonDado"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/botonDado"
+        app:layout_constraintTop_toBottomOf="@+id/botonDado" />
+
+    <ImageButton
+        android:id="@+id/botonDado"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+    <TextView
+        android:id="@+id/textDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Tira los dados"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="@+id/botonChiste"
+        app:layout_constraintStart_toStartOf="@+id/botonChiste"
+        app:layout_constraintTop_toBottomOf="@+id/botonChiste" />
+
+    <ImageButton
+        android:id="@+id/botonllamar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+    <TextView
+        android:id="@+id/textLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/botonllamar"
+        app:layout_constraintStart_toStartOf="@id/botonllamar"
+        app:layout_constraintEnd_toEndOf="@id/botonllamar"
+        android:layout_marginTop="4dp"/>
+
+    <ImageButton
+        android:id="@+id/botonweb"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+    <TextView
+        android:id="@+id/textWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a web"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/botonweb"
+        app:layout_constraintStart_toStartOf="@id/botonweb"
+        app:layout_constraintEnd_toEndOf="@id/botonweb"
+        android:layout_marginTop="4dp"/>
+
+    <ImageButton
+        android:id="@+id/botonahorro"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonllamar"
+        app:srcCompat="@android:drawable/ic_lock_idle_charging" />
+    <TextView
+        android:id="@+id/textAhorro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahorro de batería"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/botonahorro"
+        app:layout_constraintStart_toStartOf="@id/botonahorro"
+        app:layout_constraintEnd_toEndOf="@id/botonahorro"
+        android:layout_marginTop="4dp"/>
+
+    <ImageButton
+        android:id="@+id/alarma"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/boton_principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonweb"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+    <TextView
+        android:id="@+id/textAlarma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarma SOS"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/alarma"
+        app:layout_constraintStart_toStartOf="@id/alarma"
+        app:layout_constraintEnd_toEndOf="@id/alarma"
+        android:layout_marginTop="4dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
